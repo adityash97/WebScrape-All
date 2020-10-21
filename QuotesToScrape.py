@@ -8,7 +8,6 @@ class QuotesToScrape(scrapy.Spider):
         'http://quotes.toscrape.com/page/1/'
     ]
     count = 0
-
     def parse(self,response):
         item = QuotestoscrapeItem()
         all_div_quotes = response.css("div.quote")
