@@ -7,6 +7,7 @@ class QuotesToScrape(scrapy.Spider):
     start_urls = [
         'http://quotes.toscrape.com/page/1/'
     ]
+    
     count = 0
     def parse(self,response):
         item = QuotestoscrapeItem()
