@@ -10,7 +10,7 @@ import scrapy
 import pandas as pd # pandas to create .csv file
 
 '''
-To crate csv file 'scrapy' could also be used but it was not creating file in desired structure.
+To create csv file 'scrapy' could also be used but it was not creating file in desired structure.
 So i have used 'Panads'.
 '''
 
